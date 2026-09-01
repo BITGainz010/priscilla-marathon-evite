@@ -484,6 +484,7 @@
       formData.append('Saturday', selectedDays.includes('saturday') ? 'on' : 'off');
       formData.append('Sunday', selectedDays.includes('sunday') ? 'on' : 'off');
       formData.append('Monday', selectedDays.includes('monday') ? 'on' : 'off');
+      formData.append('Decline',selectedDays.includes('decline') ? 'on' : 'off');
       
       await fetch('https://airtable.com/appXb9dXjrPcvsLdm/shrA8TfQnovNmZw7M', {
         method: 'POST',
