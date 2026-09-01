@@ -396,27 +396,33 @@
         </div>
 
         <div class="form-group">
-          <label>Which days can you make it?</label>
-          <div class="days-grid">
-            <div class="day-checkbox">
-              <input type="checkbox" id="friday" name="days" value="friday" />
-              <label for="friday">Fri 10/9 (Birthday)</label>
-            </div>
-            <div class="day-checkbox">
-              <input type="checkbox" id="saturday" name="days" value="saturday" />
-              <label for="saturday">Sat 10/10 (Carbs)</label>
-            </div>
-            <div class="day-checkbox">
-              <input type="checkbox" id="sunday" name="days" value="sunday" />
-              <label for="sunday">Sun 10/11 (Race!)</label>
-            </div>
-            <div class="day-checkbox">
-              <input type="checkbox" id="monday" name="days" value="monday" />
-              <label for="monday">Mon 10/12 (Spa)</label>
-            </div>
-          </div>
-          <div id="daysError" class="error-text"></div>
-        </div>
+  <label>Which days can you make it?</label>
+  <div class="days-grid">
+    <div class="day-checkbox">
+      <input type="checkbox" id="friday" name="days" value="friday" />
+      <label for="friday">Fri 10/9 (Birthday)</label>
+    </div>
+    <div class="day-checkbox">
+      <input type="checkbox" id="saturday" name="days" value="saturday" />
+      <label for="saturday">Sat 10/10 (Carbs)</label>
+    </div>
+    <div class="day-checkbox">
+      <input type="checkbox" id="sunday" name="days" value="sunday" />
+      <label for="sunday">Sun 10/11 (Race!)</label>
+    </div>
+    <div class="day-checkbox">
+      <input type="checkbox" id="monday" name="days" value="monday" />
+      <label for="monday">Mon 10/12 (Spa)</label>
+    </div>
+  </div>
+  <div style="margin-top: 12px;">
+    <div class="day-checkbox">
+      <input type="checkbox" id="decline" name="days" value="decline" />
+      <label for="decline">Unfortunately, I can't make it. I politely decline.</label>
+    </div>
+  </div>
+  <div id="daysError" class="error-text"></div>
+</div>
 
         <button type="submit" class="submit-btn" id="submitBtn">Submit RSVP</button>
       </form>
