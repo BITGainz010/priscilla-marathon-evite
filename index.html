@@ -488,7 +488,7 @@
       formData.append('Monday', selectedDays.includes('monday') ? 'on' : 'off');
       formData.append('Decline',selectedDays.includes('decline') ? 'on' : 'off');
       
-      await fetch('https://airtable.com/appXb9dXjrPcvsLdm/shrA8TfQnovNmZw7M', {
+     await fetch('https://airtable.com/appXb9dXjrPcvsLdm/pagKIXBxtnHrhRZ7F/form', {
         method: 'POST',
         body: formData,
         mode: 'no-cors'
